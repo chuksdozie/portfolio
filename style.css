@@ -1,0 +1,46 @@
+body {
+  background-color: aqua;
+  font-family: poppins;
+  margin: 0;
+}
+
+nav {
+  top: 0;
+  background-color: black;
+  height: 100px;
+  position: fixed;
+  color: bisque;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: bisque;
+  padding: 15px;
+  font-weight: 200;
+  font-size: 15px;
+  font-stretch: ultra-expanded;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  background-color: yellow;
+  margin-top: 100px;
+}
+
+#welcome-section {
+  height: 100vh;
+  grid-area: 1/1/2/2;
+  background-color: blueviolet;
+}
+
+#projects {
+  height: 70vh;
+  grid-area: 2/1/3/2;
+  background-color: rgb(240, 236, 12);
+}
